@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='webaletheia'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits                                      -->
+  
+  <inherits name='org.primaresearch.web.gwt.PrimaGwt' />
+  <inherits name='org.primaresearch.dla.PrimaDla' />
+  <inherits name="org.primaresearch.maths.PrimaMaths"/>
+  <inherits name="org.primaresearch.PrimaBasic"/>
+  <inherits name="com.google.gwt.logging.Logging"/>
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='org.primaresearch.web.aletheia.client.WebAletheia'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+  
+  <!--  Super-dev-mode stuff -->
+  <!--<add-linker name="xsiframe" /> -->
+  <!--<set-configuration-property name="devModeRedirectEnabled" value="true" /> -->
+
+</module>

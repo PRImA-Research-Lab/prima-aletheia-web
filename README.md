@@ -11,3 +11,5 @@ You'll need:
 - Tomcat or similar on server-side (we use 7)
 
 With GWT you code in Java. For browser-side, your code is compiled to JavaScript.
+
+There's more information on the prima-aletheia-web-emop GitHub project page.
